@@ -3,6 +3,7 @@ import cors  from 'cors'
 import { Mongo } from './database/mongo.js' 
 import { config } from 'dotenv'
 import authRouter from './auth/auth.js'
+import usersRouter from './routes/users.js'
 
 config() //carrega os arquivos .env (Senhas)
 
@@ -30,7 +31,9 @@ async function main () {
         })
     })
 
+    //routes
     app.use('/auth', authRouter) //rota de autenticação
+    app.use('/users', usersRouter) //rota de usuários
 
     //inicialização do servidor
     app.listen(port, ()=> {

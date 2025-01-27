@@ -32,3 +32,10 @@
 #Vamos criar o user
 #Criamos o token
 #Fazer uma request de POST
+
+##Video 05 - CRUD
+#Requisição dos dados, atualização e eliminação 
+#dataAccess: acesso aos dados, comunicação entre o Mongo e o Node
+#controllers: controladores dos resultados, se deu certo ou errado
+#routes: rotas, por exemplo, /user, /auth
+#helpers: ajudantes; módulos para nos ajudar 
