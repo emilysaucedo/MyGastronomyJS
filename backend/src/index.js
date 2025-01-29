@@ -4,6 +4,7 @@ import { Mongo } from './database/mongo.js'
 import { config } from 'dotenv'
 import authRouter from './auth/auth.js'
 import usersRouter from './routes/users.js'
+import platesRouter from './routes/plates.js'
 
 config() //carrega os arquivos .env (Senhas)
 
@@ -34,6 +35,7 @@ async function main () {
     //routes
     app.use('/auth', authRouter) //rota de autenticação
     app.use('/users', usersRouter) //rota de usuários
+    app.use('/plates', platesRouter) //rota de pratos
 
     //inicialização do servidor
     app.listen(port, ()=> {

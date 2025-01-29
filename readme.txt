@@ -39,3 +39,6 @@
 #controllers: controladores dos resultados, se deu certo ou errado
 #routes: rotas, por exemplo, /user, /auth
 #helpers: ajudantes; módulos para nos ajudar 
+
+##Vídeo 07 - Interagindo com bancos de dados
+#Adicionar os pratos
