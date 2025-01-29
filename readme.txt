@@ -1,6 +1,8 @@
 #Usar o Node.js
 #Usar o MongoDB
 
+#Referência https://github.com/pazitto2208/MyGastronomyYt
+
 #Projeto de um restaurante, com compras de itens, login e autenticação.
 #O sistema deve ter um sistema de login e autenticação, com o usuário poder criar uma conta.
 #O sistema deve ter um sistema de compras, onde o usuário possa comprar itens.
@@ -42,3 +44,12 @@
 
 ##Vídeo 07 - Interagindo com bancos de dados
 #Adicionar os pratos
+
+##Video 08 - Pedidos/Orders
+#Fazer a referência entre as tabelas com $lookup
+
+##Video 09 - Groupby
+#eliminação e update
+#Fazer a referência entre as tabelas com $lookup
+
+--------------Finalizado o backend---------------

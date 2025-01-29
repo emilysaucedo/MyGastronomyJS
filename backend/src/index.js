@@ -5,6 +5,7 @@ import { config } from 'dotenv'
 import authRouter from './auth/auth.js'
 import usersRouter from './routes/users.js'
 import platesRouter from './routes/plates.js'
+import ordersRouter from './routes/orders.js'
 
 config() //carrega os arquivos .env (Senhas)
 
@@ -36,6 +37,7 @@ async function main () {
     app.use('/auth', authRouter) //rota de autenticação
     app.use('/users', usersRouter) //rota de usuários
     app.use('/plates', platesRouter) //rota de pratos
+    app.use('/orders', ordersRouter) //rota de pedidos
 
     //inicialização do servidor
     app.listen(port, ()=> {
