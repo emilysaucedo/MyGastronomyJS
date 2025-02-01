@@ -53,3 +53,17 @@
 #Fazer a referência entre as tabelas com $lookup
 
 --------------Finalizado o backend---------------
+
+##Video 10 - Primeiros passos com react + vite
+## npm create vite@latest frontend: cria o projeto, depois deve instalar as bibliotecas
+- Vanilla: js puro
+- Reacet + js
+npm run dev
+-> main.jsx: permite escrever html + js
+-> 1 arquivo html com o root (raíz) e na raíz ele renderiza o app 
+-> estilos no css
+
+##Video - Criando navbar responsivo
+npm install @mui/material @emotion/react @emotion/styled
+npm install react-icons --save
+https://mui.com/material-ui/react-drawer/
