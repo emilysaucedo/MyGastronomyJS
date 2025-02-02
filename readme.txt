@@ -67,3 +67,9 @@ npm run dev
 npm install @mui/material @emotion/react @emotion/styled
 npm install react-icons --save
 https://mui.com/material-ui/react-drawer/
+
+##Video - React Route DOM c/ Navbar
+npm i react-router-dom
+
+##Video - Login e Registo de User
+React Fragment > ter uma tag vazia para poder inserir tags iguais em diferentes ifs na página
