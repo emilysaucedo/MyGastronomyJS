@@ -34,7 +34,7 @@ export default function authServices() {
     }
 
     const logout = () => {
-        localStorage.removeItem('auth')
+        localStorage.removeItem('auth') //eliminar os dados
     }
 
     const signup = (formData) => {
