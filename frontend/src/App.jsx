@@ -5,7 +5,10 @@ export default function App() {
     return (
       <>
         <Navbar></Navbar>
+        <main>
         <Outlet></Outlet>
+        </main>
+        
 
       </>
     )

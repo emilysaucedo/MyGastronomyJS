@@ -73,3 +73,10 @@ npm i react-router-dom
 
 ##Video - Login e Registo de User
 React Fragment > ter uma tag vazia para poder inserir tags iguais em diferentes ifs na página
+
+##Video - Perfil e Redirecionamentos
+
+##Video - Recebendo Dados da API
+parei 21:20
+
+##Video - Estilização do projeto
