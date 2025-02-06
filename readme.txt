@@ -79,4 +79,4 @@ React Fragment > ter uma tag vazia para poder inserir tags iguais em diferentes 
 ##Video - Recebendo Dados da API
 parei 21:20
 
-##Video - Estilização do projeto
+##Video - Estilização do projeto + Página home
