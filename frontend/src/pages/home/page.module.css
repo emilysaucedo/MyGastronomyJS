@@ -26,6 +26,7 @@
 
 .socialButton { 
     width: 100%;
+    font-size: large;
 }
 
 .contactSection {
@@ -34,10 +35,19 @@
     gap: 0.5em;
 }
 
+
+
 @media screen and (max-width: 1000px) {
     .foodSection{
         grid-template-columns: repeat(2, 1fr);
     }
+}
+
+@media screen and (min-width: 1000px) {
+    .socialButtonsContainer{
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
 }
 
 @media screen and (max-width: 700) {

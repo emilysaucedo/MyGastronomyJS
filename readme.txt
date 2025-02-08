@@ -80,3 +80,5 @@ React Fragment > ter uma tag vazia para poder inserir tags iguais em diferentes 
 parei 21:20
 
 ##Video - Estilização do projeto + Página home
+
+##Loading + Footer
