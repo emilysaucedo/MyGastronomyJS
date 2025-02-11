@@ -5,6 +5,7 @@
     width: 320px; 
     position: relative;
     height: 420px;
+    align-items: center;
 
 }
 
@@ -16,11 +17,16 @@
 }
 
 .cardContent {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
     position: absolute;
     color: aliceblue;
+    width: 90%;
     padding: 0.5em;
-
 }
+
+
 
 .cardContainer:before {
     content: '';

@@ -82,3 +82,5 @@ parei 21:20
 ##Video - Estilização do projeto + Página home
 
 ##Loading + Footer
+
+##Popup + Englobando aplicação no contexto
