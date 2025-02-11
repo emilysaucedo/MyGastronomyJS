@@ -1,0 +1,54 @@
+.itemContainer {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em;
+}
+
+.itemContainer img {
+    width: 200px;
+    border-radius: 1em; 
+    height: 100%;
+    object-fit: cover;
+}
+
+.itemsListContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    width: 100%;
+}
+
+.pageContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    align-items: center;
+}
+
+.itemContent {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+
+}
+
+.portionContainer {
+    display: flex;
+    gap: 0.5em;
+    align-items: center;
+    
+}
+
+.portionBtns {
+    display: flex;
+    gap: 0.2em;
+}
+
+.confirmBtn { 
+    position: fixed;
+    font-size: large;
+    bottom: 2em;
+    margin: 0 auto;
+    background-color: rgb(253, 188, 103);
+}
