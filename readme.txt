@@ -83,4 +83,6 @@ parei 21:20
 
 ##Loading + Footer
 
-##Popup + Englobando aplicação no contexto
+##Popup + Englobando aplicação no contexto + Carrinho(add pratos)
+
+##Carrinho + Pedidos + API - Conclusão dos pedidos
