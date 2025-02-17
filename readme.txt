@@ -85,4 +85,17 @@ parei 21:20
 
 ##Popup + Englobando aplicação no contexto + Carrinho(add pratos)
 
-##Carrinho + Pedidos + API - Conclusão dos pedidos
+##Carrinho + Pedidos + API POST - Conclusão dos pedidos
+
+##Primeiros passos com Docker
+No terminal: docker build -t backend .
+No docker: vai ter criado a imagem
+No terminal: docker run -p 3000:3000 backend (rodar a porta do terminal na memsa porta do container)
+No docker: cria um container, com um terminal do linux
+Garante que a aplicação vai rodar em outras máquinas, porque no arquivo docker inserimos as especificações
+
+#Deploy com node do back
+https://portal.azure.com/?quickstart=true#view/Microsoft_Azure_SubscriptionManagement/SubscriptionCreateBlade
+
+#Deploy do frontend
+Substituir os services para o endereço: mygastronomybackend-dbd3a0cvadh2aqhv.brazilsouth-01.azurewebsites.net
