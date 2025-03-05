@@ -5,8 +5,8 @@ export default function PlatesService() {
     const [refetchPlates, setRefetchPlates] = useState(true)
     const [platesList, setPlatesList] = useState([])
 
-    //const url = 'http://localhost:3000/plates'
-    const url = 'https://mygastronomybackend-dbd3a0cvadh2aqhv.brazilsouth-01.azurewebsites.net/plates'
+    const url = 'http://localhost:3000/plates'
+    //const url = 'https://mygastronomybackend-dbd3a0cvadh2aqhv.brazilsouth-01.azurewebsites.net/plates'
 
     const getAvailablePlates = async () => {
         try {
