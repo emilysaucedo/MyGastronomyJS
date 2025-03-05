@@ -99,3 +99,5 @@ https://portal.azure.com/?quickstart=true#view/Microsoft_Azure_SubscriptionManag
 
 #Deploy do frontend
 Substituir os services para o endereço: mygastronomybackend-dbd3a0cvadh2aqhv.brazilsouth-01.azurewebsites.net
+
+#Próximos passos serão criar os testes para o meu projeto
